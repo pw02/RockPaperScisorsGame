@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  color: whitesmoke;
+}
+
+header {
+  background-color: white;
+}
+
+header>h1 {
+  color: #322640;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #322640;
+}
+
+.scoreBoard {
+  width: 175px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+}
+
+.badge {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+#userLabel {
+  position: absolute;
+  top: 50%;
+  left: -20px;
+}
+
+#computerLabel {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+
+.resultMessage {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.buttomsContainer {
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.gameButtom {
+  margin: 0px 15px;
+  padding: 10px;
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 10%;
+  transition: all 0.2s ease;
+}
+
+.gameButtom:hover {
+  cursor: pointer;
+  background: #4b3960;
+}
+
+.endMessage {
+  text-align: center;
+  font-size: 25px;
+}
+
+.divGreenBorderGlow {
+  border: 3px solid #008000;
+  box-shadow: 0 0 10px #004d00;
+}
+
+.divRedBorderGlow {
+  border: 3px solid #e60000;
+  box-shadow: 0 0 10px #b30000;
+}
+
+.divGreyBorderGlow {
+  border: 3px solid #8a8a5c;
+  box-shadow: 0 0 10px #5c5c3d;
+}
